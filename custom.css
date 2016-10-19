@@ -1,0 +1,144 @@
+h1, h2, h3, h4 {font-family: 'Quicksand', sans-serif;}
+
+h4 {text-align: center;}
+
+.homeHeader {
+  padding-top:30px;
+}
+.topRow {
+background-color:#212121;
+padding-top:5px;
+padding-bottom:5px;
+}
+.topRow a {
+color:#fff;
+padding: 10px;
+font-weight:lighter;
+}
+.topRow a:hover {
+color:#B0BEC5;
+padding: 10px;
+font-weight:lighter;
+text-decoration:none;
+}
+
+.nav nav-pills navbar-left li {
+  border-left: 1px;
+  border-color: red;
+
+}
+a.navigation-link {
+  padding: 0px 10px;
+  word-wrap: normal;
+  display: inline-block;
+}
+.mainNav{
+  padding-top:20px;
+  align: center-block;
+}
+.mainNav ul li a:hover{
+  color:#C0392B;
+  border-style: none;
+  border-width:.5px;
+  border-color:#C0392B;
+  background-color:#fff;
+  margin:0;
+  padding:100;
+}
+.mainNav ul li a {
+  color: #2C3E50;
+  border-width:.5px;
+  border-color:#fff;
+  background-color:#fff;
+  margin-top:30px;
+}
+
+.navbar {
+  background-color: transparent;
+  border:0px;
+}
+.navbar-header img {
+  position:absolute;
+  left: 10px;
+  height: 72px;
+  top: 5px;
+  padding-bottom:9px;
+}
+.navbar-header img:hover {
+  -ms-filter: brightness(130%) hue-rotate(230deg);
+  -webkit-filter: brightness(130%) hue-rotate(230deg);
+  -moz-filter: brightness(130%) hue-rotate(230deg);
+  -o-filter: brightness(130%) hue-rotate(230deg);
+  filter: brightness(130%) hue-rotate(230deg)
+}
+.navbar-default .navbar-nav>li>a {
+    color: #212121;
+    margin-top: 30px;
+    border-color:#00E676;
+    padding-bottom:3px;
+    font-family: Quicksand;
+    font-weight:bold;
+    border-style:solid;
+    border-width:medium;;
+    border-top:0;
+    border-right:0;
+    border-left:0;
+    border-color:transparent;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #212121;
+    margin-top: 30px;
+    border-style:solid;
+    border-width:medium;;
+    border-top:0;
+    border-right:0;
+    border-left:0;
+    border-color:#00E676;
+    -webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.navbar-default .navbar-nav>li>span {
+    color: #212121;
+    margin-top: 30px;
+    border-color: #00E676;
+    padding-bottom: 3px;
+}
+.navbar-default .navbar-toggle {
+    border:0;
+    margin-top:30px;
+    -webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color:#00E676;
+
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #212121;
+    width:30px;
+    height:3px;
+
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top:-10px;
+    color: inherit;
+    background-image:url("assets/jumbotronLearnEnglish.png");
+    background-position: center;
+    background-size:175%;
+    background-repeat: no-repeat;
+    height:400px
+
+}
+.jumbotron p{
+  color:#fff;
+}
+.jumbotron h1{
+  color:#fff
+}
